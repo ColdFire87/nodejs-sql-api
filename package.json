@@ -7,7 +7,10 @@
     "start": "node ./bin/start",
     "watch": "nodemon ./bin/start",
     "lint": "eslint *.js",
-    "test": "mocha ./spec"
+    "pretest": "cross-env NODE_ENV=development npm run lint",
+    "test": "cross-env NODE_ENV=development nyc mocha spec/**/*.spec.js --timeout 5000",
+    "test:watch": "npm test -- --watch",
+    "coverage": "cross-env NODE_ENV=development nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "author": "Stefan Tertan",
   "license": "MIT",
@@ -17,9 +20,12 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "bunyan": "^1.8.12",
+    "codecov": "^3.0.0",
+    "cross-env": "^5.1.4",
     "express": "^4.16.2",
     "http-status": "^1.0.1",
     "joi": "^13.1.2",
+    "nyc": "^11.4.1",
     "sequelize": "^4.36.0"
   },
   "devDependencies": {
