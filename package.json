@@ -6,10 +6,14 @@
   "scripts": {
     "start": "node ./bin/start",
     "watch": "nodemon ./bin/start",
-    "test": "mocha"
+    "lint": "eslint *.js",
+    "test": "mocha ./spec"
   },
   "author": "Stefan Tertan",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "bunyan": "^1.8.12",
@@ -20,6 +24,10 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
     "faker": "^4.1.0",
     "got": "^8.3.0",
     "mocha": "^5.0.4",
