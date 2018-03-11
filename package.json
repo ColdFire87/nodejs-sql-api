@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Example of production-ready NodeJS module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/start",
+    "watch": "nodemon ./bin/start",
+    "test": "mocha"
+  },
+  "author": "Stefan Tertan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
