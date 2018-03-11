@@ -11,9 +11,11 @@
   "author": "Stefan Tertan",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "sequelize": "^4.36.0"
   },
   "devDependencies": {
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "sqlite3": "^3.1.13"
   }
 }
