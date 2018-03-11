@@ -1,3 +1,4 @@
+'use strict';
 
 const got = require('got');
 const faker = require('faker');

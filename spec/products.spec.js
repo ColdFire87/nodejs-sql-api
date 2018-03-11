@@ -1,3 +1,4 @@
+'use strict';
 
 const HTTPStatus = require('http-status');
 const {expect} = require('chai');

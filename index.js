@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 // HTTP response status codes
 const HTTPStatus = require('http-status');
@@ -14,7 +16,7 @@ const env = process.env.NODE_ENV || 'development';
 const conf = require(path.resolve(__dirname, 'conf', env));
 
 // Logger
-const logLevel = process.env.LOG_LEVEL || 'debug';
+const logLevel = process.env.LOG_LEVEL || 'info';
 const logger = bunyan.createLogger({ name: conf.appName, level: logLevel });
 
 // DB Configuration
