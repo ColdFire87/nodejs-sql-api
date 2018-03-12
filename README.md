@@ -1,4 +1,4 @@
-# NodeJS API backed by a SQL store
+# NodeJS Example API
 
 > Based on [https://github.com/simonrenoult/nodejs-application-architecture](https://github.com/simonrenoult/nodejs-application-architecture)
 
@@ -8,6 +8,16 @@
 <a href="https://codecov.io/gh/ColdFire87/nodejs-sql-api">
   <img alt="Codecov" src="https://img.shields.io/codecov/c/github/ColdFire87/nodejs-sql-api.svg?style=flat-square">
 </a>
+
+## Description
+
+- backed by SQL store
+  - SQLite3 in dev
+  - Postgres in prod (`not tested`) - use env var `DATABASE_URL`
+  
+- documented using Swagger:
+  - Swagger UI available at `/api-docs`
+  - Swagger JSON API spec available at `/api-docs.json`
 
 ## Instructions
 
