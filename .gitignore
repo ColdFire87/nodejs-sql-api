@@ -64,6 +64,3 @@ jspm_packages/
 
 # JetBrains project files
 /.idea
-
-# SQLite3 development db
-data/sqlite3/data.db
