@@ -12,7 +12,7 @@ module.exports = {
             dialect: "sqlite",
             operatorsAliases: false,
             logging: false,
-            storage: "./data.db"
+            storage: "./data/sqlite3/data.db"
         }
     }
 };

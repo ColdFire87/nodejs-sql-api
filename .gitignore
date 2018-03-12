@@ -66,4 +66,4 @@ jspm_packages/
 /.idea
 
 # SQLite3 development db
-data.db
+data/sqlite3/data.db
