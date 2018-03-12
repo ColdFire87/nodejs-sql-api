@@ -103,7 +103,7 @@ const options = {
   // Import swaggerDefinitions
   swaggerDefinition: swaggerDefinition,
   // Path to the API docs
-  apis: ['./*.js'],
+  apis: ['src/*.js'],
 };
 const swaggerSpec = swaggerJSDoc(options);
 

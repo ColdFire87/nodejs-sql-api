@@ -4,8 +4,10 @@
   "description": "Example of production-ready NodeJS module",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/start",
-    "watch": "nodemon ./bin/start",
+    "start": "pm2 start ecosystem.json --no-daemon",
+    "stop": "pm2 stop ecosystem.json",
+    "delete": "pm2 delete ecosystem.js",
+    "watch": "nodemon ./bin/webserver.js",
     "lint": "eslint *.js",
     "pretest": "cross-env NODE_ENV=development npm run lint",
     "test": "cross-env NODE_ENV=development nyc mocha spec/**/*.spec.js --timeout 5000",
@@ -26,6 +28,7 @@
     "http-status": "^1.0.1",
     "joi": "^13.1.2",
     "nyc": "^11.4.1",
+    "pm2": "^2.10.1",
     "sequelize": "^4.36.0"
   },
   "devDependencies": {
