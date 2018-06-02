@@ -8,6 +8,7 @@
 <a href="https://codecov.io/gh/ColdFire87/nodejs-sql-api">
   <img alt="Codecov" src="https://img.shields.io/codecov/c/github/ColdFire87/nodejs-sql-api.svg?style=flat-square">
 </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FColdFire87%2Fnodejs-sql-api?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FColdFire87%2Fnodejs-sql-api.svg?type=shield"/></a>
 
 ## Description
 
@@ -47,3 +48,6 @@ $ yarn run lint
 [MIT License](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2018 Stefan Tertan.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FColdFire87%2Fnodejs-sql-api.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FColdFire87%2Fnodejs-sql-api?ref=badge_large)
