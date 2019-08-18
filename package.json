@@ -20,7 +20,7 @@
     "node": ">=8.9.0"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
     "codecov": "^3.0.0",
     "cross-env": "^5.1.4",
