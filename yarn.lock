@@ -3865,9 +3865,15 @@ swagger-schema-official@2.0.0-bab6bed:
   version "2.0.0-bab6bed"
   resolved "https://registry.yarnpkg.com/swagger-schema-official/-/swagger-schema-official-2.0.0-bab6bed.tgz#70070468d6d2977ca5237b2e519ca7d06a2ea3fd"
 
-swagger-ui-express@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/swagger-ui-express/-/swagger-ui-express-2.0.15.tgz#fba85a357b40c0d629e942537199987b8085587d"
+swagger-ui-dist@^3.18.1:
+  version "3.23.5"
+  resolved "https://registry.yarnpkg.com/swagger-ui-dist/-/swagger-ui-dist-3.23.5.tgz#cab27aa83a8f0e75fec37ff965ed4d4f33f4b1fe"
+
+swagger-ui-express@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/swagger-ui-express/-/swagger-ui-express-4.0.7.tgz#e333441aa3bd8d18c7b83c540f077965f49e3139"
+  dependencies:
+    swagger-ui-dist "^3.18.1"
 
 table@4.0.2:
   version "4.0.2"
