@@ -28,7 +28,7 @@
     "http-status": "^1.0.1",
     "joi": "^14.3.1",
     "nyc": "^11.4.1",
-    "pm2": "^2.10.1",
+    "pm2": "^3.5.1",
     "sequelize": "^5.3.0"
   },
   "devDependencies": {
