@@ -39,7 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "faker": "^4.1.0",
     "got": "^9.6.0",
-    "mocha": "^5.0.4",
+    "mocha": "^6.2.0",
     "nodemon": "^1.17.1",
     "sqlite3": "^4.1.0",
     "swagger-jsdoc": "^3.4.0",
