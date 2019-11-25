@@ -41,7 +41,7 @@
     "faker": "^4.1.0",
     "got": "^9.6.0",
     "mocha": "^6.2.1",
-    "nodemon": "^1.19.3",
+    "nodemon": "^2.0.1",
     "sqlite3": "^4.1.0",
     "swagger-jsdoc": "^3.4.0",
     "swagger-ui-express": "^4.1.1"
