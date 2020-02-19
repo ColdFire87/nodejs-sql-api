@@ -23,7 +23,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
-    "codecov": "^3.6.1",
+    "codecov": "^3.6.5",
     "cross-env": "^6.0.3",
     "express": "^4.17.1",
     "http-status": "^1.3.2",
