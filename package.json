@@ -44,6 +44,6 @@
     "nodemon": "^1.19.3",
     "sqlite3": "^4.1.0",
     "swagger-jsdoc": "^3.4.0",
-    "swagger-ui-express": "^4.1.1"
+    "swagger-ui-express": "^4.1.5"
   }
 }
