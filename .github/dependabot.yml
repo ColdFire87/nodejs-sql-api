@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: master
+  reviewers:
+  - "@ColdFire87"
+  assignees:
+  - "@ColdFire87"
+  labels:
+  - dependencies
+  - dependabot
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: pm2
+    versions:
+    - 4.5.2
+    - 4.5.4
+    - 4.5.5
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  commit-message:
+    prefix: fix
+    prefix-development: chore
+    include: scope
